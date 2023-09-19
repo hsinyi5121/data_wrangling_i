@@ -1,0 +1,12 @@
+---
+title: "template"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+litters_data = read_csv(file = "./data/FAS_litters.csv")
+head(litters_data)
+
+```
+
